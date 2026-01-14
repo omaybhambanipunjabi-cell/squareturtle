@@ -1,9 +1,9 @@
 import turtle
 
-def create_square_program():
+def square():
     screen = turtle.Screen()
     screen.bgcolor("white")
-    screen.title("Turtle Square Program")
+    screen.title("Turtle Square")
 
     artist = turtle.Turtle()
     artist.shape("turtle")
@@ -18,5 +18,6 @@ def create_square_program():
     print("Square drawing complete!")
     screen.exitonclick()
 
-if __name__ == "__main__":
+if name == "mai":
+
     create_square_program()
